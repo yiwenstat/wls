@@ -1,5 +1,5 @@
 
-## WLS
+## Weighted Leverage Score
 
 ### Introduction
 
@@ -51,5 +51,5 @@ wls$select
 
 ### Reference
 
-Zhong, W., Liu, Y., and Zeng, P. (2019). A model-free variable screening method based on leverage score.
+Zhong, W., Liu, Y., and Zeng, P. (2020). A model-free variable screening method based on leverage score.
 
