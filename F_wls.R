@@ -49,8 +49,8 @@ wlsFunc <- function(x, y, nslice=10, cn1=0.1, cn2=1, choose.dir=FALSE){
 	d <- svdx$d
 	v <- svdx$v
 
-	if( n>p && choose.dir==FALSE) {
-		dir = p
+	if( choose.dir==FALSE) {
+		dir = min(n, p)
 	} else {
 		## selection of d
 		theta = d^2/(d[1])^2 + 1
