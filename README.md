@@ -28,12 +28,12 @@ y=x[,1] + x[,2] + x[,3] + x[,4] + x[,5] + x[,6] + rnorm(n)
 To calculate the WLS of each predictor, the ```dr``` package is required.
 ```
 source("F_wls.R")
-calcwls=wlsFunc(x, y)
+wls=wlsFunc(x, y)
 ```
 
 The selected predictors are
 ```
-calcwls$select
+wls$select
 
 ```
 ```
